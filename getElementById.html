@@ -6,15 +6,18 @@
     <title>getElementById </title>
 </head>
 <body>
-   <h2 id="hello"> hello internet <span id="season">summer </span> </h2>
+   <h2 id="hello"> hello internet 
+       <span id="season"></span>summer  </h2>
 
 
 <script>
 
-    
     var season = document.getElementById("season");
     season.innerHTML="Winter";
+     var seasons =season.innerText+" its cold";
+    console.log(seasons);
+  
 
 </script>
 </body>
-</html>
+</html> 
